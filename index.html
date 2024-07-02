@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <header>
+      <nav class="flex justify-between py-[20px] px-[80px]">
+        <!-- logo -->
+        <div>
+          <a
+            href="https://www.freepik.com/free-photo/young-bearded-man-with-striped-shirt_9660042.htm#fromView=search&page=1&position=0&uuid=8b0d3022-d1a4-44df-b93a-32fa7688d155"
+          >
+            <img
+              src="https://cdn-icons-png.freepik.com/512/831/831327.png"
+              alt="logo-image"
+              class="w-[50px] h-[50px] oject-cover"
+            />
+          </a>
+        </div>
+        <!-- navlinks -->
+        <div class="hidden md:block">
+          <ul class="flex gap-4">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <!-- userlogo -->
+        <div class="flex items-center gap-4">
+          <img
+            src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?t=st=1719798531~exp=1719802131~hmac=ee77785a263c33ead2b28b37861ca2e8838e938c1bb5b8d92c45f1ae36c43014&w=1380"
+            alt="user-logo-image"
+            class="w-10 h-10 object-cover rounded-full"
+          />
+          <i class="fa-solid fa-bars md:hidden" style="font-size: 25px"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- hero section -->
+    <section
+      class="px-[80px] py-[20px] h-[700px] flex items-center justify-between flex-col md:flex-row"
+    >
+      <!-- info section -->
+      <div class="flex flex-col gap-4">
+        <h6 class="text-4xl font-bold">Hello It's me</h6>
+        <h2 class="text-5xl font-bold">Jhon Doe</h2>
+        <h6>
+          And I'am
+          <span class="text-xl font-bold text-sky-900">Frontend Developer</span>
+        </h6>
+        <p class="w-[500px]">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde
+          consectetur nemo sed eligendi fugit vitae? Aliquam modi, laborum
+          repellendus architecto beatae debitis, qui exercitationem tempora ut
+          nihil soluta voluptas pariatur!
+        </p>
+      </div>
+      <!-- hero image -->
+      <div>
+        <img
+          src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?t=st=1719798531~exp=1719802131~hmac=ee77785a263c33ead2b28b37861ca2e8838e938c1bb5b8d92c45f1ae36c43014&w=1380"
+          alt="hero-image"
+          class="w-[350px] h-[350px] object-cover rounded-full border-4 border-blue-950"
+        />
+      </div>
+    </section>
+    <!-- projects -->
+    <section class="py-[20px] px-[80px]">
+      <h1 class="text-5xl font-bold text-center">Projects</h1>
+      <div class="flex gap-4 w-full flex-wrap mt-10">
+        <div class="w-[250px] h-[500px] cursor-pointer">
+          <img
+            src="https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169863.jpg?t=st=1719886197~exp=1719889797~hmac=45893fc3399e283e12063058ff177043870b0362de40547fa645156d7d9aaa91&w=826"
+            alt="project-image"
+            class=" object-cover w-full h-[200px] rounded-xl hover:scale-105 transition-all ease-in duration-200"
+          />
+          <h1 class="mt-2 text-xl font-bold">Mobile App</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis nulla sapiente, ab esse aspernatur ducimus possimus quam eaque libero debitis, quae, itaque accusamus rem deserunt quo! Adipisci, illo iusto?</p>
+          <button class="border-2 p-2 bg-sky-900 text-white rounded-xl mt-2">Read More <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="w-[250px] h-[500px] cursor-pointer">
+          <img
+            src="https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169863.jpg?t=st=1719886197~exp=1719889797~hmac=45893fc3399e283e12063058ff177043870b0362de40547fa645156d7d9aaa91&w=826"
+            alt="project-image"
+            class=" object-cover w-full h-[200px] rounded-xl hover:scale-105 transition-all ease-in duration-200"
+          />
+          <h1 class="mt-2 text-xl font-bold">Mobile App</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis nulla sapiente, ab esse aspernatur ducimus possimus quam eaque libero debitis, quae, itaque accusamus rem deserunt quo! Adipisci, illo iusto?</p>
+          <button class="border-2 p-2 bg-sky-900 text-white rounded-xl mt-2">Read More <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="w-[250px] h-[500px] cursor-pointer">
+          <img
+            src="https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169863.jpg?t=st=1719886197~exp=1719889797~hmac=45893fc3399e283e12063058ff177043870b0362de40547fa645156d7d9aaa91&w=826"
+            alt="project-image"
+            class=" object-cover w-full h-[200px] rounded-xl hover:scale-105 transition-all ease-in duration-200"
+          />
+          <h1 class="mt-2 text-xl font-bold">Mobile App</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis nulla sapiente, ab esse aspernatur ducimus possimus quam eaque libero debitis, quae, itaque accusamus rem deserunt quo! Adipisci, illo iusto?</p>
+          <button class="border-2 p-2 bg-sky-900 text-white rounded-xl mt-2">Read More <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="w-[250px] h-[500px] cursor-pointer">
+          <img
+            src="https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169863.jpg?t=st=1719886197~exp=1719889797~hmac=45893fc3399e283e12063058ff177043870b0362de40547fa645156d7d9aaa91&w=826"
+            alt="project-image"
+            class=" object-cover w-full h-[200px] rounded-xl hover:scale-105 transition-all ease-in duration-200"
+          />
+          <h1 class="mt-2 text-xl font-bold">Mobile App</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis nulla sapiente, ab esse aspernatur ducimus possimus quam eaque libero debitis, quae, itaque accusamus rem deserunt quo! Adipisci, illo iusto?</p>
+          <button class="border-2 p-2 bg-sky-900 text-white rounded-xl mt-2">Read More <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="w-[250px] h-[500px] cursor-pointer">
+          <img
+            src="https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169863.jpg?t=st=1719886197~exp=1719889797~hmac=45893fc3399e283e12063058ff177043870b0362de40547fa645156d7d9aaa91&w=826"
+            alt="project-image"
+            class=" object-cover w-full h-[200px] rounded-xl hover:scale-105 transition-all ease-in duration-200"
+          />
+          <h1 class="mt-2 text-xl font-bold">Mobile App</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis nulla sapiente, ab esse aspernatur ducimus possimus quam eaque libero debitis, quae, itaque accusamus rem deserunt quo! Adipisci, illo iusto?</p>
+          <button class="border-2 p-2 bg-sky-900 text-white rounded-xl mt-2">Read More <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="w-[250px] h-[500px] cursor-pointer">
+          <img
+            src="https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169863.jpg?t=st=1719886197~exp=1719889797~hmac=45893fc3399e283e12063058ff177043870b0362de40547fa645156d7d9aaa91&w=826"
+            alt="project-image"
+            class=" object-cover w-full h-[200px] rounded-xl hover:scale-105 transition-all ease-in duration-200"
+          />
+          <h1 class="mt-2 text-xl font-bold">Mobile App</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis nulla sapiente, ab esse aspernatur ducimus possimus quam eaque libero debitis, quae, itaque accusamus rem deserunt quo! Adipisci, illo iusto?</p>
+          <button class="border-2 p-2 bg-sky-900 text-white rounded-xl mt-2">Read More <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="w-[250px] h-[500px] cursor-pointer">
+          <img
+            src="https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169863.jpg?t=st=1719886197~exp=1719889797~hmac=45893fc3399e283e12063058ff177043870b0362de40547fa645156d7d9aaa91&w=826"
+            alt="project-image"
+            class=" object-cover w-full h-[200px] rounded-xl hover:scale-105 transition-all ease-in duration-200"
+          />
+          <h1 class="mt-2 text-xl font-bold">Mobile App</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis nulla sapiente, ab esse aspernatur ducimus possimus quam eaque libero debitis, quae, itaque accusamus rem deserunt quo! Adipisci, illo iusto?</p>
+          <button class="border-2 p-2 bg-sky-900 text-white rounded-xl mt-2">Read More <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="w-[250px] h-[500px] cursor-pointer">
+          <img
+            src="https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169863.jpg?t=st=1719886197~exp=1719889797~hmac=45893fc3399e283e12063058ff177043870b0362de40547fa645156d7d9aaa91&w=826"
+            alt="project-image"
+            class=" object-cover w-full h-[200px] rounded-xl hover:scale-105 transition-all ease-in duration-200"
+          />
+          <h1 class="mt-2 text-xl font-bold">Mobile App</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis nulla sapiente, ab esse aspernatur ducimus possimus quam eaque libero debitis, quae, itaque accusamus rem deserunt quo! Adipisci, illo iusto?</p>
+          <button class="border-2 p-2 bg-sky-900 text-white rounded-xl mt-2">Read More <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="w-[250px] h-[500px] cursor-pointer">
+          <img
+            src="https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169863.jpg?t=st=1719886197~exp=1719889797~hmac=45893fc3399e283e12063058ff177043870b0362de40547fa645156d7d9aaa91&w=826"
+            alt="project-image"
+            class=" object-cover w-full h-[200px] rounded-xl hover:scale-105 transition-all ease-in duration-200"
+          />
+          <h1 class="mt-2 text-xl font-bold">Mobile App</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis nulla sapiente, ab esse aspernatur ducimus possimus quam eaque libero debitis, quae, itaque accusamus rem deserunt quo! Adipisci, illo iusto?</p>
+          <button class="border-2 p-2 bg-sky-900 text-white rounded-xl mt-2">Read More <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="w-[250px] h-[500px] cursor-pointer">
+          <img
+            src="https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169863.jpg?t=st=1719886197~exp=1719889797~hmac=45893fc3399e283e12063058ff177043870b0362de40547fa645156d7d9aaa91&w=826"
+            alt="project-image"
+            class=" object-cover w-full h-[200px] rounded-xl hover:scale-105 transition-all ease-in duration-200"
+          />
+          <h1 class="mt-2 text-xl font-bold">Mobile App</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis nulla sapiente, ab esse aspernatur ducimus possimus quam eaque libero debitis, quae, itaque accusamus rem deserunt quo! Adipisci, illo iusto?</p>
+          <button class="border-2 p-2 bg-sky-900 text-white rounded-xl mt-2">Read More <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
